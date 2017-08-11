@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: 2010-09-09
+Metadata:
+  'AWS::CloudFormation::Designer':
+    b2654fab-3a85-4356-9fa8-4b9958ca8224:
+      size:
+        width: 60
+        height: 60
+      position:
+        x: 308
+        'y': 211
+      z: 0
+      embeds: []
+Resources:
+  EC2I2X6TD:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      ImageId: ami-9e2f0988
+      InstanceType: m3.medium
+      NetworkInterfaces:
+        - AssociatePublicIpAddress: 'true'
+          DeviceIndex: '0'
+      KeyName: linuxfco
+    Metadata:
+      'AWS::CloudFormation::Designer':
+        id: b2654fab-3a85-4356-9fa8-4b9958ca8224
