@@ -1,0 +1,6 @@
+{
+  "Parameters" : {
+    "InstanceType" : "t2.medium",
+    "SSHLocation" : "0.0.0.0/0"
+  }
+}
